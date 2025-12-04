@@ -6,6 +6,8 @@ This repository contains a reinforcement learning framework for socially-aware n
 Muiti-person scenario:
 
 https://github.com/user-attachments/assets/4cba6d21-9af8-4023-991a-352dfa9a0251
+
+
 Single-person scenario:
 
 
