@@ -2,7 +2,7 @@
 
 This repository contains a reinforcement learning framework for socially-aware navigation in a 2D grid-based environment. The agent learns to navigate toward a goal while avoiding human obstacles, whose positions and orientations are considered in a social energy map.
 
-## Top-down View in VR user evaluation.
+## Top-down View in VR user evaluation
 Muiti-person scenario:
 
 https://github.com/user-attachments/assets/4cba6d21-9af8-4023-991a-352dfa9a0251
