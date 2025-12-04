@@ -2,14 +2,15 @@
 
 This repository contains a reinforcement learning framework for socially-aware navigation in a 2D grid-based environment. The agent learns to navigate toward a goal while avoiding human obstacles, whose positions and orientations are considered in a social energy map.
 
-## 🧠 Key Features
+## Top-down View in VR Project
+Muiti-person scenario:
 
-- **Custom GridWorld Environment**: Supports arbitrary agent start/end positions, human positions, and orientations.
-- **Social Energy Map**: Derived from human location and facing direction.
-- **Reinforcement Learning**: Uses A2C or PPO via Stable-Baselines3.
-- **Visualization**: Pygame-based rendering and trajectory visualization.
-- **Logging**: Automatically logs episode reward, route, and steps.
-- **Trajectory Smoothing**: Optional Gaussian smoothing after training.
+https://github.com/user-attachments/assets/4cba6d21-9af8-4023-991a-352dfa9a0251
+Single-person scenario:
+
+
+https://github.com/user-attachments/assets/1b28eae8-ec5b-4de7-9e70-7530f9dd7c79
+
 
 ## 📁 Project Structure
 
@@ -32,30 +33,6 @@ social_nav_rl/
 └── README.md  
 
 
-## 🚀 Quick Start
-
-### 1. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-
-### 2. Train the model
-
-```bash
-python scripts/train.py
-```
-
-You can customize the training by modifying CLI arguments, such as:
-```bash
-python scripts/train.py --start "[450, 150]" --end "[150, 450]" --n_people 3
-```
- 
-### 3. Test the model (optional)
-```bash
-python scripts/test.py
-```
 ## CLI Arguments
 
 | Argument            | Description                          | Default                |
