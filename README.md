@@ -1,4 +1,4 @@
-# Socially-Aware Navigation with Reinforcement Learning
+# RLSLM: Socially-Aware Navigation with Reinforcement Learning
 
 This repository contains a reinforcement learning framework for socially-aware navigation in a 2D grid-based environment. The agent learns to navigate toward a goal while avoiding human obstacles, whose positions and orientations are considered in a social energy map.
 
